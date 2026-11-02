@@ -19,7 +19,8 @@ import numpy as np
 
 
 def max_index(X):
-    """Return the index of the maximum in a numpy array.
+    """
+    Return the index of the maximum in a numpy array.
 
     Parameters
     ----------
@@ -37,7 +38,6 @@ def max_index(X):
         If the input is not a numpy array or
         if the shape is not 2D.
     """
-
     if not isinstance(X, np.ndarray):
         raise ValueError("X must be a numpy array")
     if X.ndim != 2:
